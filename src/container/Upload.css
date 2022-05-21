@@ -1,0 +1,27 @@
+.upload {
+  width: 70%;
+  float: right;
+  margin: 1rem;
+}
+.up-sty-btn {
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  width: 8rem;
+  background-color: #fc398a;
+  font-weight: bolder;
+  color:#fff;
+  float: right;
+  margin-right: 18rem;
+  margin-top:2rem;
+}
+.up-btn:hover {
+  color: #fc398a;
+  background-color: #fff;
+  font-weight: bolder;
+}
+.text-area{
+  background-color: #fc398a;
+  height: 10rem;
+  margin-left:5rem;
+}

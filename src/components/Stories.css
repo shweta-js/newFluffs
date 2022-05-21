@@ -1,0 +1,118 @@
+.story_topics {
+  display: flex;
+  flex-direction: column;
+}
+.stories {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  width: 85%;
+  margin-top: 0;
+  position: relative;
+  max-height: 8rem;
+}
+.plus {
+  font-size: 4rem;
+  color: #fff;
+  padding: 1rem;
+  cursor:pointer;
+}
+.add-story {
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #fc398a;
+  max-width: 6rem;
+  max-height: 6rem;
+  align-items: center;
+  margin: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.story > img {
+  border-radius: 50%;
+  max-width: 6rem;
+  border: 3px solid#fc398a;
+  padding: 0.2rem;
+  margin: 1rem;
+}
+.story {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.story-moadal {
+  /* background-color: black;
+  opacity: 0.2; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.story-moadal:focus { outline: none; }
+.add-story-modal {
+  display: flex;
+  flex-direction: column;
+
+  flex-wrap: wrap;
+  height: 30rem;
+  margin-top: 2rem;
+  width: 25rem;
+  background-color: #fff;
+
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.ad-sty-mod1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+  padding: 2rem;
+  color: grey;
+  font-size: 1.5rem;
+  align-items: center;
+  height: 3rem;
+}
+.ad-sty-mod1 > p {
+  color: #fc398a;
+}
+.separator {
+  border: 1px solid grey;
+  rotate: 180deg;
+}
+
+.up-frm-pc {
+  color: grey;
+  font-size: 1.5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.up-btn {
+  padding: .5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  width: 8rem;
+  background-color: #fc398a;
+  font-weight: bolder;
+  color:#fff;
+  float: right;
+  
+}
+.add-story-btn {
+  background-color: #fc398a;
+  color: #fff;
+  bottom: 0;
+  margin-top: 11.15rem;
+  padding: 1rem;
+  border-radius: 0 0 2rem 2rem;
+  align-items: center;
+}
+.add-story-btn > p {
+  margin-left: 10.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}

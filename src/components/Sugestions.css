@@ -1,0 +1,41 @@
+.sugg-main {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  max-height: 50rem;
+  margin: 2rem 0 0;
+  justify-content: space-evenly;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.sugestions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+}
+
+.add {
+  color: grey;
+  font-size: x-large;
+  margin: 1rem 0 0;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid rgb(186, 182, 182);
+  cursor: pointer;
+}
+.add:hover {
+  background-color: grey;
+  color: #fff;
+}
+.person-img {
+  border-radius: 50%;
+  max-width: 3rem;
+  max-height: 3rem;
+  margin: 1rem 0 0;
+}
+.usr-name {
+  color: grey;
+  margin: 1rem 0rem 0 -5rem;
+}

@@ -1,0 +1,74 @@
+.img {
+}
+.profile {
+  margin-top: 2rem;
+}
+.bg-dp {
+  max-width: 100%;
+  max-height: 100%;
+}
+.bg-dp > img {
+  width: 70%;
+  height: 30rem;
+  margin: 0 auto;
+  height: 20rem;
+  object-fit: cover;
+  object-position: 0 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.sm-dp {
+  border-radius: 50%;
+  position: absolute;
+  z-index: 3;
+  top: 18rem;
+  left: 47rem;
+  max-width: 20rem;
+  max-height: 30rem;
+  border: 0.5rem solid #fff;
+  box-shadow: inset 0 0 1px #333;
+}
+.name-dtl {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: grey;
+  position: relative;
+  width: 70%;
+  margin: 10rem 5rem 2rem 23rem;
+  padding: 1rem;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.name-dtl > h4 {
+  font-size: xx-large;
+  font-weight: bolder;
+  font-family: cursive;
+}
+.follower-dtl {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem;
+  color: grey;
+  /* max-height: 5rem; */
+
+  position: relative;
+  width: 70%;
+  margin: 2rem 5rem 2rem 23rem;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.follower-dtl > p {
+  align-self: center;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+.follower-dtl > span {
+  margin-left: -12rem;
+  background-color: #fc398a;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 50%;
+}

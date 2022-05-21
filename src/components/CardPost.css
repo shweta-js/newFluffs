@@ -1,0 +1,48 @@
+.cardpost {
+  background-color: #fff;
+  width: 20rem;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cardpost-img {
+  height: 15rem;
+  width: 20rem;
+  padding: 0;
+  border-radius: 8px 8px 0 0;
+}
+.cardpost-info > img {
+  height: 4rem;
+  width: 4rem;
+  padding: 5px;
+  z-index: 10;
+  position: relative;
+  top: -2rem;
+  right: -2rem;
+  border-radius: 8px 8px 0 0;
+}
+.cardpost-info {
+  width: 10rem;
+  background-color: rgb(255, 255, 255);
+  height: 5rem;
+}
+.cardpost-info > p {
+  z-index: 10;
+  position: relative;
+  top: -2.1rem;
+  right: -2rem;
+}
+.cardpost-name {
+  color: grey;
+  font-weight: bolder;
+  font-size: large;
+}
+.cardpost-usr-name {
+  color: grey;
+}
+.follow-btn {
+  background-color: rgb(40, 209, 150);
+  width: inherit;
+  padding: 0.5rem;
+  border-radius: 0 0 8px 8px;
+  color: #fff;
+}

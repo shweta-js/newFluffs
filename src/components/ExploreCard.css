@@ -1,0 +1,14 @@
+.exploreCard > img {
+  padding: 0;
+  border-radius: 8px;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 30rem;
+  width: 25rem;
+  margin: 1rem;
+}
+.exploreCard {
+  border-radius: 10px;
+}
