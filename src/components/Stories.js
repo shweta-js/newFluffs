@@ -4,6 +4,12 @@ import "./Stories.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faPlus,faXmark,faEllipsisVertical,faHeart,faMessage} from "@fortawesome/free-solid-svg-icons";
 import ppost from '../assets/3.jpg';
+import ppost1 from "../assets/1.jpg";
+import ppost2 from "../assets/2.jpg";
+import ppost3 from "../assets/200.webp";
+import ppost4 from "../assets/story4.webp";
+import ppost5 from "../assets/story3.webp";
+import ppost6 from "../assets/story2.webp"
 import Topics from '../components/Topics'
 import Posts from "../components/Posts"
 
@@ -64,7 +70,9 @@ const Stories = () => {
                 </div>
                 <div className="post1-a"><p className="name">pheobe</p>
                 <p className="time">10 hours ago</p></div>
-                <h4><FontAwesomeIcon className="home-icons" icon={faEllipsisVertical}/></h4>
+                <h4><FontAwesomeIcon className="home-icons" icon={faXmark}
+                onClick={setModalIsOpenToFalse}
+                /></h4>
             </div>
             <div className="post2">
                 <img src={ppost} alt="post"/>
@@ -77,12 +85,12 @@ const Stories = () => {
         </div>
                
             </Modal>
-            <img src={ppost} alt="post"/>
-            <img src={ppost} alt="post"/>
-            <img src={ppost} alt="post"/>
-            <img src={ppost} alt="post"/>
-            <img src={ppost} alt="post"/>
-            <img src={ppost} alt="post"/>
+            <img src={ppost1} alt="post"/>
+            <img src={ppost2} alt="post"/>
+            <img src={ppost3} alt="post"/>
+            <img src={ppost4} alt="post"/>
+            <img src={ppost5} alt="post"/>
+            <img src={ppost6} alt="post"/>
             
             </div>
             </div>

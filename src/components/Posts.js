@@ -1,10 +1,18 @@
 import { faEllipsisVertical, faHeart, faMessage } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import React from 'react'
+import React,{useState} from 'react'
 import "./Posts.css"
 import ppost from '../assets/1.jpg';
 
+
 const Posts = () => {
+    const [showOptions,setshowOptions]=useState(false)
+    const onClicking3dots=()=>{
+        setshowOptions(true)
+    } 
+    const turnof=()=>{
+        setshowOptions(false)
+    }
     return (
         <div className="posts">
             <div className="post1">
@@ -13,7 +21,16 @@ const Posts = () => {
                 </div>
                 <div className="post1-a"><p className="name">pheobe</p>
                 <p className="time">10 hours ago</p></div>
-                <h4><FontAwesomeIcon className="home-icons" icon={faEllipsisVertical}/></h4>
+                <h4><FontAwesomeIcon className="home-icons" 
+                onClick={showOptions?turnof:onClicking3dots}
+                icon={faEllipsisVertical}/></h4>
+               {showOptions?
+                <div className="dots-options"
+                value={showOptions}>
+                    <h4 onClick={turnof}>save</h4>
+                    <h4 onClick={turnof}>share</h4>
+                    <h4 onClick={turnof}>report</h4>
+                </div>:""}
             </div>
             <div className="post2">
                 <img src={ppost} alt="post"/>
