@@ -1,0 +1,33 @@
+.settings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+   }
+   .logout-submit{
+           padding: 1rem;
+           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+           border-radius: 10px;
+           width: 8rem;
+           color:#fff;
+           background-color: #fc398a;
+           font-weight: bolder;
+           /* margin:1rem 1rem 1rem 18rem; */
+           margin-top:20rem;
+           
+           
+         }
+         .logout-submit:hover {
+           background-color: #fff;
+           color:#fc398a ;
+           font-weight: bolder;
+         }
+         .setting-heading{
+           color:#fc398a;
+           font-size:3rem;
+           font-weight: bold;
+           font-family: cursive;
+           margin-top:19rem;
+           margin-right: 1rem;
+         }
